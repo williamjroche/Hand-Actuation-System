@@ -39,7 +39,7 @@ void servo2_position(int pulse_width){
 }
 
 void servo3_position(int pulse_width){
-	OCR2A = pulse_width/16; // each tick is 64 microseconds
+	OCR2A = pulse_width/16; // each tick is 16 microseconds
 }
 int main(void){
 	servo1_2_setup();

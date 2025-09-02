@@ -17,13 +17,13 @@ void move_servo(int servo_number, int delay, int pulse, int pulse_end, bool to_p
 					OCR2A = pulse / 16; // each tick is 16 microseconds
 					break;
 				case 4:
-					OCR2B = pulse/16; // each tick is 16 microseconds
+					OCR2B = pulse / 16; // each tick is 16 microseconds
 					break;
 				case 5:
-					OCR0A = pulse/16; // each tick is 16 microseconds
+					OCR0A = pulse / 16; // each tick is 16 microseconds
 					break;
 				case 6:
-					OCR0B = pulse/16; // each tick is 16 microseconds
+					OCR0B = pulse / 16; // each tick is 16 microseconds
 					break;
 			}
 			_delay_ms(delay);
@@ -41,16 +41,16 @@ void move_servo(int servo_number, int delay, int pulse, int pulse_end, bool to_p
 				OCR1B = pulse * 2; // pulse width is in micro seconds
 				break;
 				case 3:
-				OCR2A = pulse/16; // each tick is 16 microseconds
+				OCR2A = pulse / 16; // each tick is 16 microseconds
 				break;
 				case 4:
-				OCR2B = pulse/16; // each tick is 16 microseconds
+				OCR2B = pulse / 16; // each tick is 16 microseconds
 				break;
 				case 5:
-				OCR0A = pulse/16; // each tick is 16 microseconds
+				OCR0A = pulse / 16; // each tick is 16 microseconds
 				break;
 				case 6:
-				OCR0B = pulse/16; // each tick is 16 microseconds
+				OCR0B = pulse / 16; // each tick is 16 microseconds
 				break;
 			}
 			_delay_ms(delay);

@@ -1,5 +1,5 @@
-#ifndef servo_H
-#define servo_H
+#ifndef servo_h
+#define servo_h
 
 void servo_setup(void){
 	//This section sets up for servo 1 and servo 2 using Timer 1

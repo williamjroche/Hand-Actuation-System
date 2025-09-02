@@ -10,12 +10,14 @@ int main(void){
 	servo_setup();
 	
 	while(1){
-		DDRB |= (1 << PORTB4) | (1 << PORTB5);
+		//stepper motor test code
+		DDRB |= (1 << PORTB4) | (1 << PORTB5); 
 		PORTC |= 0x01;
 		for(int counter = 0; counter <= 6400 ; counter++){
 			PORTC != PORTC;
 			_delay_ms(1);
 		}
+		//servo movement test
 		move_servo(1, 10, 500, 2500, true);//start servo1 at -90 deg, move to 90 deg
 		move_servo(2, 10, 2500, 500, false);//start servo2 at 90 deg, move to -90 deg
 		move_servo(3, 9, 500, 2500, true);//start servo3 at -90 deg, move to 90 deg

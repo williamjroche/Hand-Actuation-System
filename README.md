@@ -23,7 +23,7 @@ Project Roadmap:
 - Redesign and retest
 
 Repo Usage:
-- To be annouced
+- to be annouced [project in progress]
 
 Guidelines for contributions:
 1) Fork the repo
